@@ -258,7 +258,7 @@ marquee, img{
     display: block;
     padding: 20px;
     overflow:scroll;
-    height:560px;
+    height:580px;
 }
 figcaption{
     font-family: Georgia, 'Times New Roman', Times, serif;
