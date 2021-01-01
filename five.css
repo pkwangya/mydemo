@@ -257,6 +257,8 @@ marquee, img{
     border: 1px double black;
     display: block;
     padding: 20px;
+    overflow:scroll;
+    height:540px;
 }
 figcaption{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -491,6 +493,9 @@ iframe{
         position: relative;
         bottom: 20px;
     }
+    .side{
+        height: fit-content;
+    }
     a.Login{
         background-image: radial-gradient(rgb(189, 189, 3), red);
     }
@@ -502,8 +507,6 @@ iframe{
     }
     .footer-form button, .footer-form input{
         width: 90%;
-    }
-    .fahead{
     }
     .Service{
     border-top: 1px solid grey;
@@ -541,7 +544,9 @@ iframe{
         margin: 0px -3px;
         bottom: 0;
         }
-
+    .h2{
+        margin-right:-40px;
+    }
     .skill-circle, .skill-background{
         width: 170px;
         height: 170px;
